@@ -1,23 +1,22 @@
+/* 
+    variável com nota do estudante
+*/
+let nota = 95;
+
 //instrução switch
-switch (new Date().getDay()) {
-    case 0:
-      console.log("Sunday");
+switch(nota) {
+    case nota >= 90:
+        console.log("A");
       break;
-    case 1:
-      console.log("Monday");
+    case nota >= 80:
+        console.log("B");
       break;
-    case 2:
-      console.log("Tuesday");
+    case nota >= 70:
+        console.log("C");
       break;
-    case 3:
-      console.log("Wednesday");
+    case nota >= 60:
+        console.log("D");
       break;
-    case 4:
-      console.log("Thursday");
-      break;
-    case 5:
-      console.log("Friday");
-      break;
-    case 6:
-      console.log("Saturday");
-  }
+    default:
+        console.log("F");
+}
