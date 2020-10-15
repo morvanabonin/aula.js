@@ -35,4 +35,3 @@ function calculoAumento (salario, aumento) {
     let valorFinal = salario + valorAumento;
     return valorFinal;
 }
-
